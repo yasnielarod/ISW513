@@ -1,0 +1,48 @@
+.modal{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.75);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal.is-open{
+    display: flex;
+}
+.modal-conteiner{
+    background-color: #fff;
+    min-width: 400px;
+    max-width: 540px;
+    min-height: 250px;
+    max-height: 600px;
+    overflow-y: auto;
+    position: relative;
+    padding: 1rem;
+}
+.is-close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: .2rem;
+}
+.is-close:hover{
+    background-color: rgb(249, 9, 9);
+    color: #fff
+}
+.btnSelect{
+    width: 5rem;
+    height: 3rem ;
+    margin: 1rem;
+    background-color: rgb(237, 157, 237);
+    color: #fff;
+    border: 1px solid  rgb(183, 122, 183);;
+    border-radius: 5%;
+}
+.btnSelect:hover{
+    background-color: #fff;
+    color:  rgb(237, 157, 237);
+}
